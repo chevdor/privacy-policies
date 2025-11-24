@@ -7,4 +7,4 @@ XShooter is a shooting performance tracking app. Track your scores, analyze your
 ## Links
 
 - [Google Play Store](https://play.google.com/store/apps/details?id=com.chevtech.xshooter)
-- [Privacy Policy](/privacy-policies/xshooter/privacy/)
+- [Privacy Policy](privacy/)
