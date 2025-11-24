@@ -1,0 +1,14 @@
+# Hugo configuration for ChevTech Privacy Policies
+
+baseURL = "https://chevdor.github.io/privacy-policies/"
+languageCode = "en-us"
+title = "ChevTech Privacy Policies"
+
+[params]
+  company = "ChevTech"
+  email = "privacy@chevdor.com"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

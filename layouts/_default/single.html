@@ -1,0 +1,11 @@
+{{ define "main" }}
+<article>
+    <h1>{{ .Params.app_name }} Privacy Policy</h1>
+
+    {{ if .Params.custom_content }}
+        {{ .Content }}
+    {{ else }}
+        {{ partial "privacy-base.html" . }}
+    {{ end }}
+</article>
+{{ end }}

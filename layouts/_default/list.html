@@ -1,0 +1,16 @@
+{{ define "main" }}
+<article>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+
+    {{ if .Pages }}
+    <ul class="app-list">
+        {{ range .Pages }}
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Params.app_name | default .Title }}</a>
+        </li>
+        {{ end }}
+    </ul>
+    {{ end }}
+</article>
+{{ end }}
